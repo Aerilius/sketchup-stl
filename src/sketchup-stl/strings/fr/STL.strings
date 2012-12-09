@@ -1,0 +1,95 @@
+// path = CommunityExtensions::STL::PLUGIN_STRINGS_PATH
+// options = { :custom_path => path }
+// tr = CommunityExtensions::STL::Translator.new("STL.strings", options)
+
+
+// Extension Description ///////////////////////////////////////////////////////
+"STL Import & Export" = "STL Import & Export"
+
+"Adds STL file format import and export. " +
+"This is an open source project sponsored by the SketchUp team. More " +
+"info and updates at https://github.com/SketchUp/sketchup-stl"
+=
+"Ajoute l'import et l'export de fichiers au format STL. " +
+"Ceci est un projet Open Source soutenu par l'équipe de SketchUp." +
+"Plus d'infos et mises à jour sur https://github.com/SketchUp/sketchup-stl"
+
+
+// Common //////////////////////////////////////////////////////////////////////
+"Meters" = "Mètres"
+"Centimeters" = "Centimètres"
+"Millimeters" = "Millimètres"
+"Feet" = "Pieds"
+"Inches" = "Pouces"
+
+
+// Importer ////////////////////////////////////////////////////////////////////
+"STereo Lithography Files" = "Fichiers STéréoLithographie";
+"STL Import" = "Import STL"
+"Importing geometry..." = "Importation de géométrie..."
+"No geometry was imported." = "Aucune géométrie importée."
+"Repairing geometry..." = "Réparation de la géométrie..."
+"Cleaning up geometry..." = "Nettoyage de la géométrie..."
+"Importing STL done!" = "Import STL réussi!"
+
+// Import Options
+"Import STL Options" = "Options d'import STL"
+"Geometry" = "Geometrie"
+"Merge coplanar faces" = "joindre les faces co-planaires"
+"Scale" = "Echelle"
+"Units:" = "Unités :"
+"Preserve drawing origin" = "Préserver l'origine du dessin"
+"Accept" = "Accepter"
+"Cancel" = "Annuler"
+
+// Binary Import
+"STL Importer (c) Jim Foltz
+
+STL Binary Header:
+%s
+
+Found %i triangles. Continue?"
+=
+"STL Importer (c) Jim Foltz
+
+STL Binary Header:
+%s
+
+Found %i triangles. Continue?"
+
+// ASCII Import
+"STL Importer (c) Jim Foltz
+
+STL ASCII File
+Found %i polygons.
+
+Continue?"
+=
+"STL Importer (c) Jim Foltz
+
+STL ASCII File
+Found %i polygons.
+
+Continue?"
+
+
+// Exporter ////////////////////////////////////////////////////////////////////
+"Nothing to export." = "Rien à exporter."
+"No objects selected. Export entire model?" = "Pas d'objet sélectionné. Exporter l'ensemble du modèle?"
+"%s file location" = "%s emplacement du fichier"
+
+"%i facets exported
+%i objects ignored"
+=
+"%i faces exportées
+%i objets ignorés"
+
+// Export Options
+"STL Export Options" = "Options d'export STL"
+"Export unit: " = "Unité d'export: "
+"File Format " = "Format de fichier "
+"ASCII" = "ASCII"
+"Binary" = "Binaire"
+
+// Menu Item
+"Export STL..." = "Export STL..."
